@@ -7,7 +7,7 @@ package beer.drone.model;
 public class Admin extends User {
 
   /**
-   * Constructs a user.
+   * Constructs an admin.
    *
    * @param name the name of the admin
    * @param email the email of the admin
