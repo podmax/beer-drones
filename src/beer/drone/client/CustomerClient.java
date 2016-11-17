@@ -2,7 +2,11 @@ package beer.drone.client;
 
 import javax.swing.*;
 import java.awt.*;
-
+/**Public calss representing the Customer Client.
+ * 
+ * @author Edward Seymour
+ * @version 1.0 (11/16/16)
+ */
 public class CustomerClient {
   private static final int DUMMY_DATA_LENGTH = 10;
   private static int dummyDataID = (int)(Math.random() * DUMMY_DATA_LENGTH);
