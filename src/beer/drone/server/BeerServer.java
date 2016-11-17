@@ -4,8 +4,12 @@ import beer.drone.client.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
+/**Public class that represents the initial server.
+ * Users are ble to log in as admin or customer.
+ *
  * @author Edward Seymour
+ * @version 1.0 (11/16/16)
+ *
  */
 public class BeerServer {
   public static ArrayList<AdministratorClient> administrators = new ArrayList<>();
@@ -31,7 +35,9 @@ public class BeerServer {
       exit = execute(args);
     } while(!exit);
   }
-
+  /** 
+  * @return user input line.
+  */
   private static String processLine(String line) {
     return line.toLowerCase().trim();
   }
