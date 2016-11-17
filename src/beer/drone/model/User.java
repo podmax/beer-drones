@@ -5,6 +5,7 @@ package beer.drone.model;
  *
  * @author Edward Seymour
  * @version 1.0 (11/16/16)
+ *
  */
 public abstract class User {
   private String name;
