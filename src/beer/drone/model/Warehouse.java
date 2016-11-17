@@ -41,12 +41,14 @@ public class Warehouse {
   }
   /**
    * @param order customers order.
+   * @see Order
    */
   public void makeOrder(Order order) {
     orders.add(order);
   }
   /**
    * @param drone drone to be added to warehouse.
+   * @see Drone
    */
   public void addDrone(Drone drone) {
     drones.add(drone);
