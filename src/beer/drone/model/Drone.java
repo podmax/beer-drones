@@ -20,6 +20,7 @@ public class Drone {
    * @param speed speed of the drone
    * @param batteryCharge power of the drone.
    * @param warehouse warehouse that the drone is located.
+   * @see Warehouse
    */
   public Drone(double speed, double batteryCharge, Warehouse warehouse) {
     this.speed = speed;
@@ -61,6 +62,7 @@ public class Drone {
     return warehouse;
   }
   /** @param warehouse warehouse.
+  * @see Warehouse
   */
   public void setWarehouse(Warehouse warehouse) {
     this.warehouse = warehouse;
