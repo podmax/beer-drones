@@ -4,6 +4,7 @@ package beer.drone.model;
  * Location represents a coordinate on Earth
  *
  * @author Edward Seymour
+ * @version 1.0 (11/16/16)
  */
 public class Location {
   private double latitude;
@@ -45,27 +46,36 @@ public class Location {
     /* TODO: Implementation */
     throw new UnsupportedOperationException("Not implemented yet.");
   }
-
+  /**
+   * @return returns the latitude.
+   */
   public double getLatitude() {
     return latitude;
   }
-
+  /** @param latitude latitude.
+  */
   public void setLatitude(double latitude) {
     this.latitude = latitude;
   }
-
+  /**
+   * @return returns the longitude.
+   */
   public double getLongitude() {
     return longitude;
   }
-
+  /** @param longitude longitude.
+  */
   public void setLongitude(double longitude) {
     this.longitude = longitude;
   }
-
+  /**
+   * @return returns the altitude.
+   */
   public double getAltitude() {
     return altitude;
   }
-
+  /** @param altitude altitude.
+  */
   public void setAltitude(double altitude) {
     this.altitude = altitude;
   }
