@@ -5,8 +5,10 @@ import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
-/**
+/**Public calss representing the Administrative Client.
+ * 
  * @author Edward Seymour
+ * @version 1.0 (11/16/16)
  */
 public class AdministratorClient {
   private static final String[] droneTableNames = {"Drone", "Status"};
