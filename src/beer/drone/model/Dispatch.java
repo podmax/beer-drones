@@ -26,11 +26,13 @@ public class Dispatch {
     }
   }
   /** @param warehouse warehouse. 
+  * @see Warehouse
   */
   public void addWarehouse(Warehouse warehouse) {
     warehouses.add(warehouse);
   }
   /** @param user system user. 
+  * @see User
   */
   public void addUser(User user) {
     users.add(user);
