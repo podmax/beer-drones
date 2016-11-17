@@ -20,8 +20,9 @@ public class Admin extends User {
   /**
    * Constructs a user.
    *
-   * @param drone ...
-   * @param index ...
+   * @param drone drone to be added.
+   * @param index location of drone.
+   * @see Drone
    */
   public void addDrone(Drone drone, int index) {
     getDispatch().getWarehouse(index).addDrone(drone);
