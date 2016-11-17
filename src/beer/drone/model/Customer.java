@@ -35,6 +35,7 @@ public class Customer extends User {
   }
 
   /** @param order customers order. 
+  * @see Order
   */
   public void makeOrder(Order order) {
     this.getDispatch().makeOrder(order);
