@@ -12,7 +12,8 @@ public class Order {
   private boolean delivered;
   private Beer beer;
   /**
-   * @param beer @see Beer class.
+   * @param beer beer
+   * @see Beer
    */
   public Order(Beer beer){
     this.beer = beer;
